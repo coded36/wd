@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>HTML Frames</title>
+ </head>
+ <frameset cols="20%,*"> 
+<frame src="left-frame.html"> 
+<frameset rows="60%,*"> 
+<frame src="right-top-frame.html"> 
+<frame src="right-bottom-frame.html"> 
+</frameset> 
+</frameset>
+</html>
+
+
+
+<!DOCTYPE html>
+<html> 
+ <head>
+ <title>HTML Frames</title>
+ </head>
+<body>
+<h1>CONTENTS</h1>
+<ul>
+<li>Chapter-1</li>
+<li>Chapter-2</li>
+<li>Chapter-3</li>
+<li>Chapter-4</li>
+<li>Chapter-5</li>
+<li>Chapter-6</li>
+<li>Chapter-7</li>
+<li>Chapter-8</li>
+<li>Chapter-9</li>
+</ul>
+</body>
+
+
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>HTML Frames</title>
+ </head>
+<h1>RIGHT TOP FRAME</h1>
+</html>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>HTML Frames</title>
+ </head>
+ <body>
+<h1>Bottom Frame</h1>
+2018 © UVCE. All rights reserved.
+powered by TargetOrate
+Privacy Policy Reach Us Terms & Conditions Refund Policy
+</body>
+</html>
