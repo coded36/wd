@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>College Infrastructure</title>
+<style>
+body {
+font-family: 'Arial', sans-serif;
+background-color: #f8f1f1;
+margin: 0;
+padding: 0;
+}
+h1 {
+text-align: center;
+color: #4a0d1a;
+padding: 20px;
+font-size: 36px;
+}
+table {
+width: 90%;
+margin: 20px auto;
+border-collapse: collapse;
+background-color: #ffffff;
+border-radius: 15px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+}
+th, td {
+border: 2px solid #4a0d1a;
+padding: 20px;
+text-align: center;
+}
+th {
+background-color: #4a0d1a;
+color: white;
+font-size: 20px;
+}
+td {
+background-color: #f5e0e0;
+font-size: 16px;
+color: #333;
+}
+td img {
+display: block;
+margin: 10px auto;
+width: 100%;
+max-width: 250px;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.center {
+text-align: center;
+font-size: 18px;
+font-weight: bold;
+}
+.full-width {
+text-align: justify;
+}
+</style>
+</head>
+<body>
+<h1>College Infrastructure</h1>
+<table>
+<tr>
+<th colspan="2" class="center">Overview of the College</th>
+</tr>
+<tr>
+<td colspan="2" class="full-width">
+<img src="./uvce.jpeg" alt="">
+Our college is renowned for its excellent infrastructure, providing students with a conducive
+environment for learning and growth. The campus is spread across a large area, featuring state-of-the-art
+buildings, lush greenery, and a wide range of facilities to support both academic and extracurricular
+activities.
+</td>
+</tr>
+<tr>
+<th>Library</th>
+<th>Labs</th>
+</tr>
+<tr>
+<td>
+<p>The library is a hub of knowledge with over 50,000 books, journals, and digital resources.
+Students have access to both quiet study zones and group discussion areas, providing an ideal space for all
+kinds of academic work.</p>
+<img src="https://cdn.shopify.com/s/files/1/0347/6111/3736/products/NY-Public-Library-Main-Reading-Room.jpg?v=1593016850" alt="Library">
+</td>
+<td>
+<p>Our labs are equipped with cutting-edge technology, providing hands-on experience in fields
+like computer science, electronics, and engineering. Each lab is designed to foster innovation and critical
+thinking.</p>
+<img src="https://www.bnl.gov/today/body_pics/2012/02/d0880212-bldg480-hr.jpg" alt="Labs">
+</td>
+</tr>
+<tr>
+<th>Hostel</th>
+<th>Sports Facilities</th>
+</tr>
+<tr>
+<td>
+<p>The college hostel offers a safe and comfortable living environment. With modern amenities
+such as Wi-Fi, study rooms, and recreational spaces, it provides students with a home-like atmosphere away
+from home.</p>
+<img src="https://abrokenbackpack.com/wp-content/uploads/2017/07/czech-inn-1.jpg" alt="Hostel">
+</td>
+<td>
+<p>Our college has world-class sports facilities, including football fields, basketball courts, and a
+well-equipped gymnasium. Students are encouraged to engage in physical activities to maintain a healthy
+balance between academics and sports.</p>
+<img src="https://i.pinimg.com/originals/45/77/1d/45771d5271de091b31505609e776951b.jpg" alt="Sports Facilities">
+</td>
+</tr>
+</table>
+</body>
+</html>
