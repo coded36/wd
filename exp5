@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Embedde audio and video</title>
+<style>
+body{
+font-family:Arial,sans-serif;
+background-color:blue;
+color:#333;
+text-align:center;
+margin:0;
+padding:20px;
+}
+h1{
+color:#444;}
+.media-container{
+margin:20px auto;
+max-width:600px;
+}
+audio,video{
+width:100%;
+margin:20px,0
+}
+</style>
+</head>
+<body>
+<h1>Embedded audio and video</h1>
+<div class="media-container">
+<h2>Audio Classical music</h2>
+<audio controls>
+<source src="" type="audio/mp3">
+</audio>
+<h2>Video sample nature clips</h2>
+<video controls>
+<source src="" type="video/mp4">
+</video>
+</div>
+</body>
+</html>
