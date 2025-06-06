@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Tester</title>
+  <style>
+    body { font-family: Arial; padding: 20px; background: #f4f4f9; }
+    h2 { color: #007bff; }
+    input, button {
+      width: 300px; padding: 8px; margin: 8px 0;
+      font-size: 16px; border: 1px solid #ccc; border-radius: 5px;
+    }
+    button {
+      background: #28a745; color: #fff; border: none; cursor: pointer;
+    }
+    button:hover { background: #218838; }
+    .result {
+      margin-top: 5px; background: #fff; padding: 8px;
+      border: 1px solid #ccc; border-radius: 5px; width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Check Uppercase</h2>
+  <input id="text" placeholder="Enter text"><br>
+  <button onclick="uc()">Check</button>
+  <div class="result" id="r1"></div>
+
+  <h2>Validate Email</h2>
+  <input id="email" placeholder="Enter email"><br>
+  <button onclick="emailCheck()">Check</button>
+  <div class="result" id="r2"></div>
+
+  <h2>Format Number</h2>
+  <input id="num" type="number" placeholder="Enter number"><br>
+  <button onclick="comma()">Format</button>
+  <div class="result" id="r3"></div>
+
+  <script>
+    function uc() {
+      const t = document.getElementById('text').value;
+      document.getElementById('r1').textContent =
+        /^[A-Z]/.test(t) ? "Starts with uppercase." : "Doesn't start with uppercase.";
+    }
+
+    function emailCheck() {
+      const e = document.getElementById('email').value;
+      const regex = /^[\w.%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+      document.getElementById('r2').textContent =
+        regex.test(e) ? "Valid email." : "Invalid email.";
+    }
+
+    function comma() {
+      const n = document.getElementById('num').value;
+      document.getElementById('r3').textContent =
+        n ? parseInt(n).toLocaleString() : "Enter a valid number.";
+    }
+  </script>
+</body>
+</html>
