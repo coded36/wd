@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Country Capitals</title>
+
+
+</head>
+<body>
+<h1>Select a Country to See Its Capital</h1>
+
+<select id="countrySelect" onchange="showCapital()">
+<option value="">--Select a Country--</option>
+<option value="India">India</option>
+<option value="USA">USA</option>
+<option value="France">France</option>
+<option value="Japan">Japan</option>
+<option value="Brazil">Brazil</option>
+</select>
+
+<span id="capital" class="capital hidden"></span>
+<script>
+
+function showCapital() {
+const capitals = {
+"India": "New Delhi",
+"USA": "Washington, D.C.",
+"France": "Paris",
+"Japan": "Tokyo",
+
+"Brazil": "Brasília"
+};
+
+const selectedCountry = document.getElementById('countrySelect').value;
+
+const capitalElement = document.getElementById('capital');
+capitalElement.textContent = capitals[selectedCountry] || '';
+
+if (selectedCountry) {
+capitalElement.classList.remove('hidden');
+} else {
+capitalElement.classList.add('hidden');
+}
+}
+</script>
+</body>
+</html>
